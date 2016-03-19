@@ -138,7 +138,7 @@ public class Submit extends JFrame implements ActionListener{
 		   public SimpleFileChooser() {
 		    super("File Chooser Test Frame");
 		    setSize(350, 200);
-		    setDefaultCloseOperation(EXIT_ON_CLOSE);
+		    setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
 		    Container c = getContentPane();
 		    c.setLayout(new FlowLayout());
